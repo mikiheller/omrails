@@ -5,7 +5,10 @@
 @import 'bootstrap';
 
 body {
-	padding-top:60px;
+	/* padding-top:60px; */
+	background-color:white;
+
+
 }
 
 .footer {
@@ -17,3 +20,48 @@ body {
 }
 
 @import 'bootstrap-responsive';
+
+.left_side {
+	 background-color:black;
+	 height:100%;
+	 bottom:0px;
+	 position:absolute;
+}
+
+
+.landing_page_logo {
+	background-image: url('/assets/casetext-white.jpg'); 
+	margin:20px;
+	background-size:200px;
+	height:200px;
+	background-repeat: no-repeat;
+}
+
+.slogan {
+	color:white;
+	font-size:26px;
+	font-family:Arial;
+	line-height:1.4;
+	margin-bottom:20px;
+}
+
+.lightbulb_image {
+	background-repeat: no-repeat;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+}
+
+
+.sign_up {
+	background-image: url('/assets/sign_up_buttons.png'); 
+	margin-top:150px;
+	margin-left:50px;
+	height:400px;
+	background-repeat: no-repeat;
+}
+
+.landing_page_footer {
+	position:fixed;
+	bottom:0px;
+}
