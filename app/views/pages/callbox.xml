@@ -1,0 +1,6 @@
+<Response> 
+    <Say>Hi, Jake and Miki live in Apartment 139. Come on in!</Say> 
+    <Play>9.wav</Play> 
+    <Sms to="408-829-1101" from="408-512-2180" method="POST">Someone just buzzed in.</Sms> 
+    <Sms to="408-505-1614" from="408-512-2180" method="POST">Someone just buzzed in.</Sms> 
+</Response>

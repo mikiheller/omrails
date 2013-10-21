@@ -9,6 +9,8 @@ Omrails::Application.routes.draw do
 
   get 'casetext_landing_page' => 'pages#casetext_landing_page'
 
+  get 'callbox' => 'pages#callbox'
+
  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
